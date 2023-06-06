@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <h3><b> Math magicien README</b></h3>
+  <h3><b> To do README</b></h3>
 
 </div>
 
@@ -29,11 +29,7 @@
 # 📖 About the Project <a name="about-project"></a>
 
 
-"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-
-Make simple calculations.
-Read a random math-related quote.
-By building this application, you will use React.
+Todo, is an application build in react that can help people setup their task, mark when it's completed, for better management of journey
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -78,7 +74,7 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-git clone https://github.com/francksefu/math-magicien.git 
+git clone https://github.com/francksefu/td-react.git
 
 
 ### Usage
