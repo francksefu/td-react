@@ -1,6 +1,6 @@
-import TodoLogic from "./components/TodoLogic";
+import TodoLogic from './components/TodoLogic';
 import './styles/app.css';
-import Header from "./components/Header";
+import Header from './components/Header';
 
 function App() {
   return (
