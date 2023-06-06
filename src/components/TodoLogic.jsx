@@ -22,16 +22,16 @@ const TodoLogic = () => {
     },
   ]);
 
-  const setUpdate = ({ updatedTitle, id }) => {
-    const tabl = [...todos];
-    tabl.map((tod) => {
-      const todo = tod;
-      if (todo.id === id) {
-        todo.title = updatedTitle;
-      }
-      return tod;
-    });
-    setTodos(tabl);
+  const setUpdate = (updatedTitle, id) => {
+    setTodos(
+      todos.map((tod) => {
+        const todo = tod;
+        if (todo.id === id) {
+          todo.title = updatedTitle;
+        }
+        return todo;
+      }),
+    );
   };
 
   const handleChange = (id) => {
